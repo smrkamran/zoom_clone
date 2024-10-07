@@ -62,7 +62,7 @@ const MeetingTypeList = () => {
       toast({
         title: "Meeting Created",
       });
-    } catch (err) {
+    } catch (err) { // @typescript-eslint/no-unused-vars
       toast({
         title: "Failed to create meeting",
       });
