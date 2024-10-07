@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import React, { useState } from "react";
 import HomeCard from "./HomeCard";
 import { useRouter } from "next/navigation";
@@ -63,7 +62,7 @@ const MeetingTypeList = () => {
       toast({
         title: "Meeting Created",
       });
-    } catch (error) {
+    } catch (err) {
       toast({
         title: "Failed to create meeting",
       });
